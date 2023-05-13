@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Agrupación Los Linces</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+        <!--TIPOGRAFIA-->
+        <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <!--LOGO-->
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Vector Ink Export.svg" alt="" width="100" height="auto"class="d-inline-block align-text-top">
+                </a>
+                <!--NAV-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                        <a class="nav-link" href="index.html #nosotros">NOSOTROS</a>
+                        <a class="nav-link" href="escuelas.html">ESCUELAS</a>
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        <a class="nav-link" href="eventos.html">EVENTOS</a>
+                        </div>
+                    </div>
+                    </div>
+                </nav>
+            </nav>
+        </div>
+        <div class="container text-center">
+            <p><h1>Proximos eventos Carreras De Calle</h1></p>
+        </div>
+        </header>
+
+    
+        <div class="container w-100">
+            <section class="d-flex align-items-center" id="loading">
+                <strong>Loading...</strong>
+                <div
+                    class="spinner-border ms-auto"
+                    role="status"
+                    aria-hidden="true"
+                ></div>
+            </section>
+            <div class="row row-cols-1 row-cols-md-3 g-2" id="card-dinamica">
+                <template id="template-card">
+                    <div class="col">
+                        <div class="card " style="width: 24rem;">
+                            <img id="img_evento" src="" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p id="p_nombre_evento" class="card-text"></p>
+                            <a id="a_inscribirme" href="formularioEvento.html" class="btn btn-primary">Inscribirme</a>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+           
+        </div>
+       
+                <!--FOOTER-->
+                <!--FOOTER-->
+        <footer class="container p-4 rounded"><br><hr>
+            <div class="d-lg-flex justify-content-between">
+            <div>
+                <!--MAPA DEL SITIO-->
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html #nosotros">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="escuelas.html">ESCUELAS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="eventos.html">EVENTOS</a>
+                    </li>
+                </ul>
+                </div>
+                <!--CONTACTO-->
+                <div class="copyright">
+                    <ul type="none">
+                        <li>TELEFONO</li>
+                        <li>LUGAR</li>
+                    </ul>
+                </div>
+                <!--REDES-->
+                <div>
+                <ul class="d-flex gap-3 list-unstyled">
+                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+                </div>
+                </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
+<script type="text/javascript" src="data.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+    fetchData();
+});
+
+const cards = document.querySelector("#card-dinamica");
+const templateCard = document.querySelector("#template-card").content;
+
+const fetchData = async () => {
+    try {
+        loadingData(true);
+
+        //const res = await fetch("https://rickandmortyapi.com/api/character");
+        //const data = await res.json();
+
+        pintarDatos(data);
+    } catch (error) {
+        console.log(error);
+    } finally {
+        loadingData(false);
+    }
+};
+
+const loadingData = (estado) => {
+    const loading = document.querySelector("#loading");
+    if (estado) {
+        loading.classList.remove("d-none");
+    } else {
+        loading.classList.add("d-none");
+    }
+};
+
+const pintarDatos = (data) => {
+    const fragment = document.createDocumentFragment();
+
+    cards.textContent = "";
+
+    data.forEach((item) => {
+        const clone = templateCard.cloneNode(true);
+        clone.querySelector("#p_nombre_evento").textContent = item.name;
+        clone.querySelector("#a_inscribirme").setAttribute("href","formularioEvento.html?id" + item.id)
+        clone.querySelector("#img_evento").setAttribute("src", item.url);
+
+        fragment.appendChild(clone);
+    });
+    cards.appendChild(fragment);
+};
+</script>
