@@ -153,7 +153,7 @@ const pintarDatos = (data) => {
     data.forEach((item) => {
         const clone = templateCard.cloneNode(true);
         clone.querySelector("#p_nombre_evento").textContent = item.name;
-        clone.querySelector("#a_inscribirme").setAttribute("href","formularioEvento.html?id" + item.id)
+        clone.querySelector("#a_inscribirme").setAttribute("href","formularioEvento.html?id=" + item.id)
         clone.querySelector("#img_evento").setAttribute("src", item.url);
 
         fragment.appendChild(clone);
