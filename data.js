@@ -14,7 +14,8 @@ data = [
       4800,
       4000
     ],
-    "url": "./Imagenes eventos Carreras/CarreraMaya.jpg"
+    "url": "./Imagenes eventos Carreras/CarreraMaya.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@ data = [
       4999,
       3999
     ],
-    "url": "./Imagenes eventos Carreras/RunHappy.jpg"
+    "url": "./Imagenes eventos Carreras/RunHappy.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 3,
@@ -48,7 +50,8 @@ data = [
       4999,
       3999
     ],
-    "url": "./Imagenes eventos Carreras/MadiaMaratonLaPlata.jpg"
+    "url": "./Imagenes eventos Carreras/MediaMaratonLaPlata.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 4,
@@ -65,7 +68,8 @@ data = [
       4500,
       4500
     ],
-    "url": "./Imagenes eventos Carreras/Rexona.jpg"
+    "url": "./Imagenes eventos Carreras/Rexona.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 5,
@@ -80,7 +84,8 @@ data = [
     "costo": [
       6999
     ],
-    "url": "./Imagenes eventos Carreras/30kBuenosAires.jpg"
+    "url": "./Imagenes eventos Carreras/30kBuenosAires.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 6,
@@ -101,7 +106,8 @@ data = [
       6000,
       5200
     ],
-    "url": "./Imagenes eventos Carreras/MaratonInternacionalDeSanJuan.jpg"
+    "url": "./Imagenes eventos Carreras/MaratonInternacionalDeSanJuan.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 7,
@@ -116,7 +122,8 @@ data = [
     "costo": [
       5500
     ],
-    "url": "./Imagenes eventos Carreras/15kRosario.jpg"
+    "url": "./Imagenes eventos Carreras/15kRosario.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 8,
@@ -131,7 +138,8 @@ data = [
     "costo": [
       5799
     ],
-    "url": "./Imagenes eventos Carreras/15kBuenosAires.jpg"
+    "url": "./Imagenes eventos Carreras/15kBuenosAires.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 9,
@@ -144,7 +152,8 @@ data = [
       5
     ],
     "costo": [],
-    "url": "./Imagenes eventos Carreras/MujeresEnMarchaRosario.jpg"
+    "url": "./Imagenes eventos Carreras/MujeresEnMarchaRosario.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 10,
@@ -163,7 +172,8 @@ data = [
         "costo": 11000
       }
     ],
-    "url": "./Imagenes eventos Carreras/trailTandil.jpg"
+    "url": "./Imagenes eventos Carreras/trailTandil.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 11,
@@ -178,7 +188,8 @@ data = [
     "costo": [
       9700
     ],
-    "url": "./Imagenes eventos Carreras/MaratonBuenosAires.jpg"
+    "url": "./Imagenes eventos Carreras/MaratonBuenosAires.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 12,
@@ -195,7 +206,8 @@ data = [
       5500,
       4800
     ],
-    "url": "./Imagenes eventos Carreras/CarreraMaya15kSanJuan.jpg"
+    "url": "./Imagenes eventos Carreras/15kSanJuan.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 13,
@@ -214,7 +226,8 @@ data = [
       4499,
       3699
     ],
-    "url": "./Imagenes eventos Carreras/MediaMaratonComodoro.jpg"
+    "url": "./Imagenes eventos Carreras/MediaMaratonComodoro.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 14,
@@ -227,7 +240,8 @@ data = [
       5
     ],
     "costo": [],
-    "url": "./Imagenes eventos Carreras/MujeresEnMarcha.jpg"
+    "url": "./Imagenes eventos Carreras/MujeresEnMarcha.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 15,
@@ -240,7 +254,8 @@ data = [
       15
     ],
     "costo": [],
-    "url": "./Imagenes eventos Carreras/marDelPlata.jpg"
+    "url": "./Imagenes eventos Carreras/marDelPlata.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 16,
@@ -259,6 +274,7 @@ data = [
       4999,
       4299
     ],
-    "url": "./Imagenes eventos Carreras/MediaMaratonMarDelPlata.jpg"
+    "url": "./Imagenes eventos Carreras/MediaMaratonMarDelPlata.jpg",
+    "inscripcion_habilitada": true
   }
 ]
