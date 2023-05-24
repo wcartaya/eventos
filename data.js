@@ -1,4 +1,4 @@
-data = [
+[
   {
     "id": 1,
     "name": "Carrera Maya",
