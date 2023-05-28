@@ -6,15 +6,9 @@
     "ubicacion": "Palermo",
     "date": "25/05/2023",
     "hour": "08:00",
-    "distancias": [
-      10,
-      3
-    ],
-    "costo": [
-      4800,
-      4000
-    ],
-    "url": "./Imagenes eventos Carreras/CarreraMaya.jpg"
+    "distancias": [{"distancia": 10,"costo": 4800},{"distancia": 3,"costo": 4000}],
+    "url": "./Imagenes eventos Carreras/CarreraMaya.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 2,
@@ -23,15 +17,10 @@
     "ubicacion": "Av.Figueroa Alcorta y Monroe",
     "date": "4/06/2023",
     "hour": "08:30",
-    "distancias": [
-      10,
-      5
-    ],
-    "costo": [
-      4999,
-      3999
-    ],
-    "url": "./Imagenes eventos Carreras/RunHappy.jpg"
+    "distancias": [{ "distancia":10,"costo":4999},{"distancia":5, "costo":3999}],
+
+    "url": "./Imagenes eventos Carreras/RunHappy.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 3,
@@ -40,15 +29,9 @@
     "ubicacion": "Plaza Moreno La Plata",
     "date": "11/06/2023",
     "hour": "08:00",
-    "distancias": [
-      21,
-      10
-    ],
-    "costo": [
-      4999,
-      3999
-    ],
-    "url": "./Imagenes eventos Carreras/MadiaMaratonLaPlata.jpg"
+    "distancias":[{ "distancia":21, "costo":4999},{"distancia":10, "costo":3999}],
+    "url": "./Imagenes eventos Carreras/MediaMaratonLaPlata.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 4,
@@ -57,15 +40,9 @@
     "ubicacion": "Alfonsin y Laprida, Vicente Lopez",
     "date": "17/06/2023",
     "hour": "17:00",
-    "distancias": [
-      10,
-      3
-    ],
-    "costo": [
-      4500,
-      4500
-    ],
-    "url": "./Imagenes eventos Carreras/Rexona.jpg"
+    "distancias":[{ "distancia":10,"costo":4500},{"distancia":3, "costo":4500}],
+    "url": "./Imagenes eventos Carreras/Rexona.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 5,
@@ -74,13 +51,9 @@
     "ubicacion": "Autodromo Oscar y Juan Galvez",
     "date": "02/07/2023",
     "hour": "7:45 a 8:30",
-    "distancias": [
-      30
-    ],
-    "costo": [
-      6999
-    ],
-    "url": "./Imagenes eventos Carreras/30kBuenosAires.jpg"
+    "distancias":[{ "distancia":30,"costo":6999}],
+    "url": "./Imagenes eventos Carreras/30kBuenosAires.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 6,
@@ -89,19 +62,9 @@
     "ubicacion": "Punta Negra San Juan",
     "date": "23/07/2023",
     "hour": "7:00",
-    "distancias": [
-      42,
-      21,
-      10,
-      5
-    ],
-    "costo": [
-      8200,
-      7200,
-      6000,
-      5200
-    ],
-    "url": "./Imagenes eventos Carreras/MaratonInternacionalDeSanJuan.jpg"
+    "distancias":[{ "distancia":42,"costo":8200},{"distancia":21, "costo":7200},{"distancia":10, "costo":6000},{"distancia":5, "costo":5200}],
+    "url": "./Imagenes eventos Carreras/MaratonInternacionalDeSanJuan.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 7,
@@ -110,13 +73,9 @@
     "ubicacion": "Monumento Nacional a La Bandera",
     "date": "23/07/2023",
     "hour": "7:45 a 8:30",
-    "distancias": [
-      15
-    ],
-    "costo": [
-      5500
-    ],
-    "url": "./Imagenes eventos Carreras/15kRosario.jpg"
+    "distancias":[{ "distancia":15,"costo":5500}],
+    "url": "./Imagenes eventos Carreras/15kRosario.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 8,
@@ -125,13 +84,9 @@
     "ubicacion": "Av Figueroa Alcorta & Av Dorrego",
     "date": "06/08/2023",
     "hour": "7:15 a 8:00",
-    "distancias": [
-      15
-    ],
-    "costo": [
-      5799
-    ],
-    "url": "./Imagenes eventos Carreras/15kBuenosAires.jpg"
+    "distancias": [{ "distancia":15, "costo":5799}],
+    "url": "./Imagenes eventos Carreras/15kBuenosAires.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 9,
@@ -140,11 +95,9 @@
     "ubicacion": "Av. Dante Alighieri y Blvd.Oroño",
     "date": "17/09/2023",
     "hour": "9:00",
-    "distancias": [
-      5
-    ],
-    "costo": [],
-    "url": "./Imagenes eventos Carreras/MujeresEnMarchaRosario.jpg"
+    "distancias": [{ "distancia":5, "costo":null}],
+    "url": "./Imagenes eventos Carreras/MujeresEnMarchaRosario.jpg",
+    "inscripcion_habilitada": false
   },
   {
     "id": 10,
@@ -153,17 +106,9 @@
     "ubicacion": "Parque Del Lago, a las orillas del Lago Del Fuerte, altura curvón de la Av Saabedra Lamas",
     "date": "17/09/2023",
     "hour": "10:00",
-    "distancias": [
-      {
-        "distancia": 5,
-        "costo": 13000
-      },
-      {
-        "distancia": 10,
-        "costo": 11000
-      }
-    ],
-    "url": "./Imagenes eventos Carreras/trailTandil.jpg"
+    "distancias":[{ "distancia":30, "costo":13000},{"distancia":20, "costo":11000},{"distancia":10, "costo":9000}],
+    "url": "./Imagenes eventos Carreras/trailTandil.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 11,
@@ -172,13 +117,9 @@
     "ubicacion": "Av Figueroa y Monroe",
     "date": "24/09/2023",
     "hour": "7:00",
-    "distancias": [
-      42
-    ],
-    "costo": [
-      9700
-    ],
-    "url": "./Imagenes eventos Carreras/MaratonBuenosAires.jpg"
+    "distancias": [{ "distancia":42,"costo":9700}],
+    "url": "./Imagenes eventos Carreras/MaratonBuenosAires.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 12,
@@ -187,15 +128,9 @@
     "ubicacion": "Autodromo de Villicum San Juan",
     "date": "1/10/2023",
     "hour": "7:15 a 8:00",
-    "distancias": [
-      15,
-      5
-    ],
-    "costo": [
-      5500,
-      4800
-    ],
-    "url": "./Imagenes eventos Carreras/CarreraMaya15kSanJuan.jpg"
+    "distancias":[{ "distancia":125,"costo":5500},{"distancia":5, "costo":4800}],
+    "url": "./Imagenes eventos Carreras/15kSanJuan.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 13,
@@ -204,17 +139,9 @@
     "ubicacion": "Av Costanera Comodoro Rivadavia",
     "date": "8/10/2023",
     "hour": "7:15 a 8:00",
-    "distancias": [
-      21,
-      10,
-      5
-    ],
-    "costo": [
-      5499,
-      4499,
-      3699
-    ],
-    "url": "./Imagenes eventos Carreras/MediaMaratonComodoro.jpg"
+    "distancias":[{ "distancia":21,"costo":5499},{"distancia":10, "costo":4499},{"distancia":5, "costo":3699}],
+    "url": "./Imagenes eventos Carreras/MediaMaratonComodoro.jpg",
+    "inscripcion_habilitada": true
   },
   {
     "id": 14,
@@ -223,11 +150,9 @@
     "ubicacion": "Vicente Lopez",
     "date": "14/10/2023",
     "hour": "18:00",
-    "distancias": [
-      5
-    ],
-    "costo": [],
-    "url": "./Imagenes eventos Carreras/MujeresEnMarcha.jpg"
+    "distancias":[{ "distancia":5,"costo":null}],
+    "url": "./Imagenes eventos Carreras/MujeresEnMarcha.jpg",
+    "inscripcion_habilitada": false
   },
   {
     "id": 15,
@@ -236,11 +161,9 @@
     "ubicacion": "Playa Varese",
     "date": "15/10/2023",
     "hour": "8:00",
-    "distancias": [
-      15
-    ],
-    "costo": [],
-    "url": "./Imagenes eventos Carreras/marDelPlata.jpg"
+    "distancias":[{ "distancia":15,"costo":null}],
+    "url": "./Imagenes eventos Carreras/marDelPlata.jpg",
+    "inscripcion_habilitada": false
   },
   {
     "id": 16,
@@ -249,16 +172,8 @@
     "ubicacion": "Av Patricia Peralta Ramos, Frente a la Plaza Almirante Brown",
     "date": "12/11/2023",
     "hour": "6:15 a 7:00",
-    "distancias": [
-      21,
-      10,
-      5
-    ],
-    "costo": [
-      5999,
-      4999,
-      4299
-    ],
-    "url": "./Imagenes eventos Carreras/MediaMaratonMarDelPlata.jpg"
+    "distancias":[{ "distancia":21,"costo":5999},{"distancia":10, "costo":4999},{"distancia":5, "costo":4299}],
+    "url": "./Imagenes eventos Carreras/MediaMaratonMarDelPlata.jpg",
+    "inscripcion_habilitada": true
   }
 ]
